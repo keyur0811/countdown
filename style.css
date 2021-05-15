@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f4f4f4;
+  background: #222;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 2rem;
+  color: rgb(180, 123, 255);
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
